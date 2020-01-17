@@ -1,0 +1,17 @@
+{
+    "name": "dfevrier/laravel-filter",
+    "description": "A simple way to filter Eloquent queries with params.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dylan Fevrier",
+            "email": "dev@dylanfevrier.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dfevrier\\LaravelFilter\\": "src/"
+        },
+    },
+    "require": {}
+}
