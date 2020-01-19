@@ -13,5 +13,8 @@
             "Dfevrier\\LaravelFilter\\": "src/"
         },
     },
-    "require": {}
+    "require": {
+        "php": "^7.2",
+        "laravel/framework": "^6.0"
+    }
 }
