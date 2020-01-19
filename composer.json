@@ -11,7 +11,7 @@
     "autoload": {
         "psr-4": {
             "Dfevrier\\LaravelFilter\\": "src/"
-        },
+        }
     },
     "require": {
         "php": "^7.2",
