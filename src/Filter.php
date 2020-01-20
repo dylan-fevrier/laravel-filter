@@ -2,7 +2,6 @@
 
 namespace Dfevrier\LaravelFilter;
 
-use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
 
@@ -14,9 +13,9 @@ trait Filter
      * @param  Model   $model   [description]
      * @param  array   $columns [description]
      * @param  Request $request [description]
-     * @return Builder            [description]
+     * @return Model            [description]
      */
-    public function filter(Model $model, array $columns, Request $request): Builder
+    public function filter(Model $model, array $columns, Request $request)
     {
         foreach ($columns as $key => $value) {
             if (is_array($value)) {
