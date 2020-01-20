@@ -10,7 +10,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "Dfevrier\\LaravelFilter\\": "src/"
+            "Dfevrier\\LaravelFilter\\": "src/",
+            "Dfevrier\\LaravelFilter\\Test": "test/"
         }
     },
     "require": {
