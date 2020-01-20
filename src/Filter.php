@@ -9,7 +9,7 @@ trait Filter
 {
 
     /**
-     * [filter description]
+     * Filter.
      * @param  Model   $model   [description]
      * @param  array   $columns [description]
      * @param  Request $request [description]
